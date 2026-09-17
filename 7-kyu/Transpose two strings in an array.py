@@ -2,8 +2,7 @@
 
 def transpose_two_strings(arr):
     max_len = max(map(len, arr))
-    equal_len = [item.ljust(max_len) for item in arr]
-    expected_output =
+
     letter_container = {}
 
     for item in arr:
